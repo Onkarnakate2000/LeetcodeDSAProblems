@@ -2,9 +2,9 @@ function getOrderedElements(arr,n){
     if(n<2){
         return -1;
     }
- let sLargest = secondLargest(arr,n);
- let sSmallest = secondSmallest(arr,n);
- return {sLargest,sSmallest};
+ let secondLargest = secondLargest(arr,n);
+ let secondSmallest = secondSmallest(arr,n);
+ return {secondLargest,secondSmallest};
 }
 
 function secondLargest(arr,n){
