@@ -1,18 +1,3 @@
-// function moveZeroesToEnd(arr){
-//     let n = arr.length;
-//     let sortedArray=[];
-//     sortedArray = arr.filter((item)=>{
-//         if(item===0){
-//             sortedArray.splice(n,0,0)
-//         }else{
-//             sortedArray.push(item)
-//         }
-//     })
-    
-//     console.log("sortedArray :",sortedArray);
-// }
-
-// moveZeroesToEnd([2,3,5,7,0,3,2,0,5])
 
 ////////////////////////////////
 
